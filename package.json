@@ -15,6 +15,7 @@
     "author": "stuyk",
     "license": "ISC",
     "devDependencies": {
+        "@altv-vchat/types": "^1.0.5",
         "@altv/types-client": "^2.5.3",
         "@altv/types-natives": "^1.5.3",
         "@altv/types-server": "^2.6.6",

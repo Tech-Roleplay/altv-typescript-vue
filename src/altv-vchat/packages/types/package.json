@@ -1,0 +1,14 @@
+{
+    "name": "@altv-vchat/types",
+    "description": "vChat resource types for alt:V.",
+    "version": "1.0.5",
+    "author": "5exyGuy (Aurėjus Remeika)",
+    "main": "",
+    "types": "index.d.ts",
+    "files": [
+        "index.d.ts"
+    ],
+    "dependencies": {
+        "@altv/types-server": "^2.5.5"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "name": "@altv-vchat/client",
+    "version": "1.0.5",
+    "author": "5exyGuy (Aurėjus Remeika)",
+    "type": "module",
+    "scripts": {
+        "dev": "rollup -c -w --bundleConfigAsCjs",
+        "build": "rollup -c --bundleConfigAsCjs"
+    },
+    "dependencies": {
+        "reflect-metadata": "^0.1.13",
+        "tsyringe": "^4.7.0"
+    },
+    "devDependencies": {
+        "@altv/types-client": "^2.4.2",
+        "@altv/types-natives": "^1.4.8",
+        "@altv/types-shared": "^1.3.6",
+        "@altv/types-worker": "^1.0.7",
+        "@rollup/plugin-commonjs": "^24.0.0",
+        "@rollup/plugin-node-resolve": "^15.0.1",
+        "@rollup/plugin-terser": "^0.2.1",
+        "@types/node": "^18.11.17",
+        "rollup": "^3.8.0",
+        "rollup-plugin-typescript2": "^0.34.1",
+        "tslib": "^2.4.1",
+        "typescript": "^4.9.4"
+    }
+}
