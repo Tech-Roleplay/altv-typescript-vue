@@ -13,9 +13,10 @@ tags = [ 'customTag1', 'customTag2', 'customTag3', 'customTag4' ]
 
 resources = [
     # Append Mods First
+    'vchat',
     'webviews',
-    'core' ,
-    'altv-vchat'
+    'core' 
+    
 ]
 
 # Turn this off in production mode
